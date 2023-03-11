@@ -1,0 +1,11 @@
+test_dataset:
+  dataset:
+    name: image-folder
+    args:
+      root_path: ./datasets/benchmark/B100/HR
+  wrapper:
+    name: sr-cut-downsampled-test
+    args:
+      test_scale: 8
+  batch_size: 1
+eval_type: benchmark-8

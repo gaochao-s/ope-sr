@@ -1,0 +1,11 @@
+test_dataset:
+  dataset:
+    name: paired-image-folders
+    args:
+      root_path_1: ./datasets/benchmark/Urban100/LR_bicubic/X4
+      root_path_2: ./datasets/benchmark/Urban100/HR
+  wrapper:
+    name: sr-cut-paired
+    args: {}
+  batch_size: 1
+eval_type: benchmark-4

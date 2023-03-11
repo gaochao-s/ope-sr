@@ -1,0 +1,11 @@
+test_dataset:
+  dataset:
+    name: paired-image-folders
+    args:
+      root_path_1: ./datasets/div2k/DIV2K_valid_LR_bicubic_X2/DIV2K_valid_LR_bicubic/X2
+      root_path_2: ./datasets/div2k/DIV2K_valid_HR
+  wrapper:
+    name: sr-cut-paired
+    args: {}
+  batch_size: 1
+eval_type: div2k-2

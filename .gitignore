@@ -1,0 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.idea/
+save/
+scripts/
+datasets/benchmark
+datasets/div2k
+

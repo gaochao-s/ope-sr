@@ -1,0 +1,11 @@
+test_dataset:
+  dataset:
+    name: image-folder
+    args:
+      root_path: ./datasets/benchmark/Urban100/HR
+  wrapper:
+    name: sr-cut-downsampled-test
+    args:
+      test_scale: 6
+  batch_size: 1
+eval_type: benchmark-6
