@@ -1,7 +1,7 @@
 # OPE-SR: Orthogonal Position Encoding for Designing a Parameter-free Upsampling Module in Arbitrary-scale Image Super-Resolution
 
 This is the official implementation for the paper OPE-SR: 
-"OPE-SR: Orthogonal Position Encoding for Designing a Parameter-free Upsampling Module in Arbitrary-scale Image Super-Resolution" (CVPR 2023)
+["OPE-SR: Orthogonal Position Encoding for Designing a Parameter-free Upsampling Module in Arbitrary-scale Image Super-Resolution"](https://openaccess.thecvf.com/content/CVPR2023/html/Song_OPE-SR_Orthogonal_Position_Encoding_for_Designing_a_Parameter-Free_Upsampling_Module_CVPR_2023_paper.html) (CVPR 2023)
 
 ## Environment
 - python 3
